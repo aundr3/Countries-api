@@ -1,0 +1,48 @@
+*{box-sizing: border-box;}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: #32CD32;
+}
+
+.top-nav-link {
+    color: #fff;
+}
+
+.top-nav-link:hover {
+    color: #32CD32;
+}
+
+.home-section {
+    margin-top: 50px;
+}
+
+.home-text {
+ color: #fff;
+}
+
+.home-text2 {
+    color: #32CD32;
+    font-size: 50px;
+}
+.country-name {
+    color: #32CD32;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.flag-img {
+    height: 25px;
+    width: 50px;
+}
+
+.country-item-text {
+    color: #fff;
+}
+
+.top {
+    color: #fff;
+}

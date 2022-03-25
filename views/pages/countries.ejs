@@ -1,0 +1,15 @@
+<%- include('../partials/header'); %>
+
+<section class="section contries-section container">
+    <% data.forEach(item=> { %>
+        <div class="item-div">
+                <p class="country-name text-uppercase text-center"><%= item.name %> <img class="flag-img" src="<%= item.media.flag %> " alt="<%= item.name %> "></p>
+        </div>
+        <p class="country-item-text">Capital: <%= item.capital %></p>
+        <p class="country-item-text">Population: <%= item.population %></p>
+        <p class="country-item-text">Currency: <%= item.currency %></p>
+     <% }) %>
+    <p class="top">Back To <a href="#top">Top</a></p>
+</section>
+
+<%- include('../partials/footer'); %>

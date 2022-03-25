@@ -1,0 +1,8 @@
+<%- include('../partials/header'); %>
+
+    <section class="section home-section">
+        <p class="home-text text-center">Let's take a trip to...</p>
+        <p class="home-text2 text-center"><%= data[Math.floor(Math.random() * data.length)].name %></p>
+    </section>
+
+<%- include('../partials/footer'); %>
